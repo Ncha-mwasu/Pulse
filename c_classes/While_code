@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+/**
+* main - creates the multiplication table of n
+*
+* Return: Always 0 (Success)
+*/
+
+int main() {
+
+   int n, y;
+
+    n = 1;
+
+   printf("Input number: ");
+   scanf("%d", &y);
+
+   while (n <= 12)
+   {
+        int product = y * n;
+        printf("%d*%d=%d\n ", y, n, product);
+       n = ++n;
+   }
+
+    return 0;
+}
