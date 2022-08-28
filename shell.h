@@ -20,5 +20,6 @@ void ctrl_C(int);
 int print(char *, int);
 int _strlen(char *str);
 char *get_line(void);
+void *_realloc(void *ptr, int oldsize, int newsize);
 
 #endif /* SHELL_H */
