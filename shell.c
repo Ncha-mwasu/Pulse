@@ -11,6 +11,5 @@ int main (int arg __attribute__((unused)), char **argv)
 	{
 		print(" (/$/) ", STDOUT_FILENO);
 		line = get_line();
-		print("
 	}
 
